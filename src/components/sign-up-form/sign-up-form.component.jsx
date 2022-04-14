@@ -4,10 +4,10 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import FormInput from "../../components/form-input/form-input.component.jsx";
+import FormInput from "../form-input/form-input.component.jsx";
 import './sign-up-form.styles.scss';
 
-import Button from "../../components/button/button.component"
+import Button from "../button/button.component"
 
 
 const defaultFormFields = {
