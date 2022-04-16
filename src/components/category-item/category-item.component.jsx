@@ -2,17 +2,17 @@ import "./category-item.styles.scss";
 
 import React from "react";
 
-const categoryItem = ({ category }) => {
+const CategoryItem = ({ category }) => {
     const {imageUrl, title} = category;
   return (
-    <div className="category-container">
+    <div className="categories-item-container">
       <div
         className="background-image"
         style={{
           backgroundImage: `url(${imageUrl})`,
         }}
       />
-      <div className="category-body-container">
+      <div className="category-item-body-container">
         <h2>{title}</h2>
         <p>Shop Now</p>
       </div>
@@ -20,4 +20,4 @@ const categoryItem = ({ category }) => {
   );
 };
 
-export default categoryItem;
+export default CategoryItem;
